@@ -1,0 +1,14 @@
+# Konfigurasi YAML
+# Jika true maka, command prompt sebelumnya dibersihkan
+header:
+cls: false
+
+# Konfigurasi Pendeteksian
+cameraConfig:
+  customModel: false
+# Custom model dari hasil training YOLOv8 (default false)
+  model: "model/yolovs.pt"
+  conf: 0.3 # Model confidence
+  iou: 0.3 # Model IoU
+
+
